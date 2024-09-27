@@ -168,7 +168,12 @@ public readonly record struct MyRecordStruct(int X, int Y);
 
 // record vs class
 // record => immutable par défaut, utilisé principalement pour la transfer des données (DTOs), type référence
+//           ToString auto généré => affiche la valeurs des propriétés
+//           == (equals) => Comparaison des valeurs des propriétés
+
 // class => mutable par défaut, type référence
+//          ToString => affiche le nom de la classe
+//          == (equals) => Comparaison de la référence
 
 // Déclaration simplifié
 public record MyRecordExample(int X, int Y);
