@@ -1,6 +1,6 @@
 ﻿#region Top level statement
 
-//namespace NouveatesDotNet6
+//namespace NouveautesDotNet6
 //{
 //    internal class Program
 //    {
