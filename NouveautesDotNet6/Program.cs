@@ -167,7 +167,7 @@ public readonly record struct MyRecordStruct(int X, int Y);
 #region Record (C# 9)
 
 // record vs class
-// record => immutable par défaut, utilisé principalement pour transporter des données (DTOs), type référence
+// record => immutable par défaut, utilisé principalement pour la transfer des données (DTOs), type référence
 // class => mutable par défaut, type référence
 
 // Déclaration simplifié
